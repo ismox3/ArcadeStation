@@ -1,0 +1,330 @@
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		login
+ *	@date 		Wednesday 19th of October 2022 02:13:03 AM
+ *	@title 		Page 1
+ *	@author 	
+ *	@keywords 	
+ *	@generator 	Export Kit v1.3.figma
+ *
+*/
+
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1447px; height: 926px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
+
+
+
+
+
+
+#page_agregar__cliente__ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__agregar__cliente__ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:#;
+	background: -webkit-linear-gradient(-175.82388596164deg , rgba(251.82,73.57,147.65,1) 0%, rgba(209.33,171.21,240.13,0.86000001430511) 48%, rgba(76.43,82.77,234.82,0.94999998807907) 88%);
+	background: -o-linear-gradient(-175.82388596164deg , rgba(251.82,73.57,147.65,1) 0%, rgba(209.33,171.21,240.13,0.86000001430511) 48%, rgba(76.43,82.77,234.82,0.94999998807907) 88%);
+	background: -moz-linear-gradient(-175.82388596164deg , rgba(251.82,73.57,147.65,1) 0%, rgba(209.33,171.21,240.13,0.86000001430511) 48%, rgba(76.43,82.77,234.82,0.94999998807907) 88%);
+	background: -ms-linear-gradient(-175.82388596164deg , rgba(251.82,73.57,147.65,1) 0%, rgba(209.33,171.21,240.13,0.86000001430511) 48%, rgba(76.43,82.77,234.82,0.94999998807907) 88%);
+	background: linear-gradient(-175.82388596164deg , rgba(251.82,73.57,147.65,1) 0%, rgba(209.33,171.21,240.13,0.86000001430511) 48%, rgba(76.43,82.77,234.82,0.94999998807907) 88%);
+}
+#rectangle_61_ek2 {
+	top: 987px;
+	left: 30px;
+	width: 1383px;
+	height: 861px;
+	-ms-border-radius: 41px;
+	-o-border-radius: 41px;
+	-moz-border-radius: 41px;
+	-webkit-border-radius: 41px;
+	border-radius: 41px;
+	border: 2px solid #000000;
+	background:rgba(251.1,216.14,251.81,1);
+}
+#rectangle_10_ek6 {
+	top: 0px;
+	left: -10px;
+	width: 1450px;
+	height: 95px;
+	background:rgba(239.19,247.41,254.99,1);
+}
+#logo_ek7 {
+	top: 24px;
+	left: 576px;
+	width: 288px;
+	height: 51px;
+}
+#user_profile_icon_free_vector_1_ek4 {
+	top: 16px;
+	left: 35px;
+	width: 77px;
+	height: 67px;
+}
+#chevrons_right_1_ek3 {
+	top: 38px;
+	left: 17px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek40 {
+	top: 7px;
+	left: 13px;
+	width: 5px;
+	height: 10px;
+}
+#vector_ek41 {
+	top: 7px;
+	left: 6px;
+	width: 5px;
+	height: 10px;
+}
+#nombre_ek1 {
+	top: 367px;
+	left: 338px;
+	width: 271px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+#rectangle_57_ek2 {
+	top: 412px;
+	left: 400px;
+	width: 657px;
+	height: 52px;
+}
+#datos_del_cliente {
+	top: 149px;
+	left: 429px;
+	width: 582px;
+	height: 57.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 4.55px;
+	color:#000000;
+}
+#vector_2_ek2 {
+	top: 200px;
+	left: 526px;
+	width: 392px;
+	height: 0px;
+}
+#rectangle_67_ek2 {
+	top: 883px;
+	left: 1169px;
+	width: 200px;
+	height: 63px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background:rgba(146.5,156.72,210.38,1);
+}
+#actualizar_ek2 {
+	top: 896px;
+	left: 1177px;
+	width: 184px;
+	height: 43.5px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.25px;
+	color:#000000;
+}
+#rectangle_62_ek2 {
+	top: 534px;
+	left: 400px;
+	width: 655px;
+	height: 139px;
+}
+#direccion_ek1 {
+	top: 474px;
+	left: 399px;
+	width: 191px;
+	height: 60px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+#ingrese_cedula__ek1 {
+	top: 264px;
+	left: 338px;
+	width: 419px;
+	height: 61px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+#rectangle_56_ek2 {
+	top: 304px;
+	left: 400px;
+	width: 452px;
+	height: 42px;
+}
+#image_4 {
+	top: 559px;
+	left: 17px;
+	width: 287px;
+	height: 389px;
+}
+#rectangle_63 {
+	opacity:0.70999997854233;
+	top: 698px;
+	left: 423px;
+	width: 282px;
+	height: 172px;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background:rgba(251,216,252,0.71);
+}
+#genero {
+	top: 710px;
+	left: 355px;
+	width: 224px;
+	height: 72px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+#f {
+	top: 766px;
+	left: 497px;
+	width: 44px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+#m {
+	top: 766px;
+	left: 408px;
+	width: 45px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Sintony;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+#image_8 {
+	top: 202px;
+	left: 112px;
+	width: 169px;
+	height: 125px;
+}
+#image_9 {
+	top: -132px;
+	left: 1097px;
+	width: 274px;
+	height: 298px;
+	
+}
+#tarjetas_ek2 {
+	top: 31px;
+	left: 466px;
+	width: 160px;
+	height: 42px;
+	overflow: hidden;
+	font-family: Tomorrow;
+	font-size: 22px;
+	text-align: center;
+	color:#000000;
+}
+#crear_ek2 {
+	top: 33px;
+	left: 848px;
+	width: 112px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Tomorrow;
+	font-size: 22px;
+	text-align: center;
+	color:#000000;
+}
+#vector_3 {
+	top: 62px;
+	left: 859px;
+	width: 81px;
+	height: 0px;
+}
+#ellipse_3 {
+	top: 766px;
+	left: 456px;
+	width: 35px;
+	height: 38px;
+	-ms-border-radius: 16.5px / 18px;
+	-o-border-radius: 16.5px / 18px;
+	-moz-border-radius: 16.5px / 18px;
+	-webkit-border-radius: 16.5px / 18px;
+	border-radius: 16.5px / 18px;
+	border: 1px solid #000000;
+	background:rgba(217,217,217,1);
+}
+#ellipse_4 {
+	top: 771px;
+	left: 542px;
+	width: 24px;
+	height: 28px;
+	-ms-border-radius: 11px / 13px;
+	-o-border-radius: 11px / 13px;
+	-moz-border-radius: 11px / 13px;
+	-webkit-border-radius: 11px / 13px;
+	border-radius: 11px / 13px;
+	border: 1px solid #000000;
+	background:rgba(217,217,217,1);
+}
+
+
+/* Add your custom CSS here */
+

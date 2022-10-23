@@ -19,19 +19,25 @@ body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
 img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
 
 /* Only edit this if you know what you are doing! */
-div { position: absolute; }
+div { position: absolute; } 
+
+.main-container {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
+}
 
 #content-container { display: block; position: relative; width: 100%; height: 1000px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
 #page_login_ek1 {
 	
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 }
 
 #_bg__login_ek2 {
 	
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	background: -webkit-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
 	background: -o-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
 	background: -moz-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);

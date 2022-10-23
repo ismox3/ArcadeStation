@@ -20,7 +20,7 @@
 		<title>login</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="" >
-		<link rel="StyleSheet" href="Assents/css/login.css" />
+		<link rel="StyleSheet" href="Assents/css/login2.css" />
 		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
 <style>
 .tomttxt{
@@ -48,7 +48,31 @@ cursor: pointer;
 
 	</head>
 	<body>
-		<div id="content-container" >
+
+		<main class="main-container">
+			<div class="rows">
+				<div class="cols-1">
+					<div class="p-absolute">
+						<img src="Assents/Img/SwitchControl.png" id='logo-switch'/><br/>
+					</div>
+					<img src="Assents/Img/logo.png" id="logo" />
+				</div>
+				<div class="cols-2">			
+					<div class="login">
+						<div class="Username">
+							<h1 class="username">Username</h1>
+							<input type="text" class="login-form"> 
+						</div>
+						<div class="Password">
+							<H1 class="password">Password</H1>
+							<input type="password" class="login-form">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- <div id="content-container" >
 			<div id="page_login_ek1"  >
 				<div id="_bg__login_ek2"  ></div>
 				<div id="rectangle_1"  ></div>
@@ -92,10 +116,8 @@ cursor: pointer;
 				<img src="Assents/Img/_1248110_1.png" id="_1248110_1" />
 
 			</div>
-
-			<!-- Prueba git -->
 			
-		</div>
+		</div> -->
 		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
 	</body>
 </html>

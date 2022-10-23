@@ -1,0 +1,215 @@
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		login
+ *	@date 		Wednesday 19th of October 2022 02:13:03 AM
+ *	@title 		Page 1
+ *	@author 	
+ *	@keywords 	
+ *	@generator 	Export Kit v1.3.figma
+ *
+*/
+
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 100%; height: 926px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
+
+
+
+
+#page_empleado_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__empleado_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:#;
+	background: -webkit-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
+	background: -o-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
+	background: -moz-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
+	background: -ms-linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
+	background: linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
+}
+#mask_group_ek7 {
+	top: 63px;
+	left: -29px;
+	width: 979.5px;
+	height: 995.5px;
+}
+
+#dde6daf4675eec6dc7e0c73a83e37bd2_1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 979.5px;
+	height: 995.5px;
+}
+#rectangle_10_ek4 {
+	top: 0px;
+	left: -10px;
+	width: 1450px;
+	height: 95px;
+	background:rgba(239.19,247.41,254.99,1);
+}
+#user_profile_icon_free_vector_1_ek3 {
+	top: 14px;
+	left: 25px;
+	width: 77px;
+	height: 67px;
+}
+#logo_ek5 {
+	top: 24px;
+	left: 576px;
+	width: 288px;
+	height: 51px;
+}
+#tarjetas {
+	top: 36px;
+	left: 439px;
+	width: 160px;
+	height: 42px;
+	overflow: hidden;
+	font-family: Tomorrow;
+	font-size: 22px;
+	text-align: center;
+	color:#000000;
+}
+#crear {
+	top: 35px;
+	left: 855px;
+	width: 112px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Tomorrow;
+	font-size: 22px;
+	text-align: center;
+	color:#000000;
+}
+#_238738_1 {
+	top: 95px;
+	left: 461px;
+	width: 1575px;
+	height: 976px;
+}
+#mask_group_ek8 {
+	top: 315px;
+	left: -10px;
+	width: 518px;
+	height: 394px;
+}
+#__0000_ek2 {
+	top: 770px;
+	left: 175px;
+	width: 159px;
+	height: 56.5px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 25px;
+	text-align: center;
+	color:#FFFFFF;
+}
+#nombre_del_empleado {
+	top: 682px;
+	left: 54px;
+	width: 401px;
+	height: 112.5px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+#mask_group_ek9 {
+	top: 282px;
+	left: 931px;
+	width: 198px;
+	height: 111px;
+}
+#__bienvenido_estimado_cajero_ {
+	top: 393px;
+	left: 664px;
+	width: 743px;
+	height: 194px;
+	overflow: hidden;
+	font-family: Tomorrow;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+#rectangle_12_ek1 {
+	top: 947px;
+	left: 1230px;
+	width: 156px;
+	height: 49px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 2px solid #31337c;
+	background:rgba(205.16,167.66,252.88,1);
+}
+#log_out_ek2 {
+	top: 958px;
+	left: 1260px;
+	width: 100px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Tomorrow;
+	font-size: 20px;
+	text-align: center;
+	color:#000000;
+}
+#aqu__tendr_s_tus_funciones_laborales_de_arcadestation__echa_un_vistazo_y_descubre_tus_funciones__en_tal_caso_de_una_duda_busca_el_bot_n_de_ayuda_ {
+	top: 562px;
+	left: 703px;
+	width: 666px;
+	height: 186px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+#chevrons_right_1_ek2 {
+	top: 36px;
+	left: 7px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek24 {
+	top: 7px;
+	left: 13px;
+	width: 5px;
+	height: 10px;
+}
+#vector_ek25 {
+	top: 7px;
+	left: 6px;
+	width: 5px;
+	height: 10px;
+}
+
+
+
+
+/* Add your custom CSS here */
+
