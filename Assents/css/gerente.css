@@ -13,7 +13,7 @@
 */
 
 /* Only edit this if you know what you are doing! */
-{ margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
 
 /* Only edit this if you know what you are doing! */
 img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
@@ -58,15 +58,15 @@ body{
 .main-container > .barra_de_navegacion {
 	
 	width: 100vw;
-	height: 95px;
+	height: 12vh;
 	background:rgba(230.56,231.54,255,1);
 }
 
 .main-container > .barra_de_navegacion > .modificar {
 	top: 30%;
-	left: 26%;
-	width: 118px;
-	height: 39px;
+	left: 23%;
+	width: -50vw;
+	height: 5vh;
 	overflow: hidden;
 	font-family: Tomorrow;
 	font-size: 22px;
@@ -82,8 +82,8 @@ body{
 .main-container > .barra_de_navegacion > .reportes {
 	top: 30%;
 	left: 33%;
-	width: 160px;
-	height: 42px;
+	width: -10vw;
+	height: 5vh;
 	overflow: hidden;
 	font-family: Tomorrow;
 	font-size: 22px;
@@ -99,8 +99,8 @@ body{
 .main-container > .barra_de_navegacion > .agregar {
 	top: 30%;
 	left: 54%;
-	width: 112px;
-	height: 40px;
+	width: 20vw;
+	height: 41vh;
 	overflow: hidden;
 	font-family: Tomorrow;
 	font-size: 22px;
@@ -116,8 +116,8 @@ body{
 .main-container > .barra_de_navegacion > .consultar {
 	top: 30%;
 	left: 61%;
-	width: 118px;
-	height: 41px;
+	width: 27vw;
+	height: 41vh;
 	overflow: hidden;
 	font-family: Tomorrow;
 	font-size: 22px;
@@ -133,8 +133,8 @@ body{
 .main-container > .barra_de_navegacion > .logo {
 	top: 30%;
 	left: 40%;
-	width: 288px;
-	height: 51px;
+	width: 20vw;
+	height: 7vh;
 }
 
 .main-container > .barra_de_navegacion > .flechas {
@@ -145,16 +145,21 @@ body{
 }
 
 .main-container > .barra_de_navegacion > .flechas > .vector {
-	top: 7px;
+	top: 5%;
 	left: 0px;
 	width: 5px;
 	height: 10px;
 }
 .main-container > .barra_de_navegacion > .flechas > .vector_ek1 {
-	top: 7px;
+	top: 5%;
 	left: 6px;
 	width: 5px;
 	height: 10px;
+}
+
+.main-container > .barra_de_navegacion > .user_profile{
+	top: 8%;
+	left: 1%;
 }
 
 .main-container > .boton {
@@ -193,10 +198,10 @@ body{
 	color:#FFFFFF;
 }
 #__0000 {
-	top: 78%;
+	top: 81%;
 	left: 9%;
 	width: 8vw;
-	height: 56.5px;
+	height: 56.5vh;
 	overflow: hidden;
 	font-family: Montserrat;
 	font-size: 25px;
@@ -204,10 +209,10 @@ body{
 	color:#FFFFFF;
 }
 #bienvenido{
-	top: 361px;
-	left: 1094px;
-	width: 715px;
-	height: 193px;
+	top: 32%;
+	left: 46%;
+	width: 51vw;
+	height: 20vh;
 	overflow: hidden;
 	font-family: Tomorrow;
 	font-size: 60px;
@@ -217,10 +222,10 @@ body{
 }
 #saludo{
 	position: relative;
-	top: 53%;
-	left: 51.5%;
-	width: 661px;
-	height: 206px;
+	top: 56%;
+	left: 32%;
+	width: 55vw;
+	height: 50vh;
 	overflow: hidden;
 	font-family: Tomorrow;
 	font-size: 32px;
@@ -231,8 +236,8 @@ body{
 
 #mask_group_ek2 {
 	position: absolute;
-	top: 25%;
-	left: 73%;
+	top: 21%;
+	left: 66%;
 	width: 20vh;
 	height: 12vh;
 }
