@@ -1,28 +1,18 @@
-/*
- *	This content is generated from the PSD File Info.
- *	(Alt+Shift+Ctrl+I).
- *
- *	@desc 		
- *	@file 		login
- *	@date 		Wednesday 19th of October 2022 02:13:03 AM
- *	@title 		Page 1
- *	@author 	
- *	@keywords 	
- *	@generator 	Export Kit v1.3.figma
- *
-*/
+img {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
 
 /* Only edit this if you know what you are doing! */
-
-
-/* Only edit this if you know what you are doing! */
-img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
-
-/* Only edit this if you know what you are doing! */
-div { position: absolute; }
+div {
+	position: absolute;
+}
 
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 
@@ -30,139 +20,159 @@ div { position: absolute; }
 	display: flex;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(-175.82388596164deg , rgba(251.82,74.62,148.26,1) 0%, rgba(189.07,158.69,211.44,0.86000001430511) 48%, rgba(69.52,74.27,213.57,0.94999998807907) 87%);
-	
+	background: linear-gradient(-175.82388596164deg, rgba(251.82, 74.62, 148.26, 1) 0%, rgba(189.07, 158.69, 211.44, 0.86000001430511) 48%, rgba(69.52, 74.27, 213.57, 0.94999998807907) 87%);
+
 }
 
-body{
+body {
 	margin: 0;
 	padding: 0;
 }
-.main-container > .img-1{
+
+.main-container>.img-1 {
 	height: 100vh;
 	width: 60vw;
 }
-.main-container > .img-2{
-	
+
+.main-container>.img-2 {
+
 	left: 20.5%;
-	height:100vh;
+	height: 100vh;
 	width: 79vw;
 }
-.main-container > .img-3 {
-	top: 32%;
+
+.main-container>.img-3 {
+	top: 29%;
 	left: 0%;
 	width: 27vw;
 	height: 40vh;
 }
 
-.main-container > .barra_de_navegacion {
-	
+.main-container>.barra_de_navegacion {
+
 	width: 100vw;
 	height: 12vh;
-	background:rgba(230.56,231.54,255,1);
+	background: rgba(230.56, 231.54, 255, 1);
 }
 
-.main-container > .barra_de_navegacion > .modificar {
-	top: 30%;
-	left: 23%;
-	width: -50vw;
-	height: 5vh;
-	overflow: hidden;
+.main-container>.barra_de_navegacion>.reportes {
+	top: 25%;
+	left: 30%;
+
+}
+
+
+.main-container>.barra_de_navegacion>.reportes>#reportes {
+
 	font-family: Tomorrow;
 	font-size: 22px;
-	text-align: center;
-	color:#000000;
+
 }
 
-.main-container > .barra_de_navegacion > .modificar > a{
-	text-decoration: none;
-	color: black;
+.main-container>.barra_de_navegacion>.reportes>.dropdown-menu {
+
+	font-family: Tomorrow;
+	font-size: 20px;
+
 }
 
-.main-container > .barra_de_navegacion > .reportes {
-	top: 30%;
-	left: 33%;
-	width: -10vw;
-	height: 5vh;
-	overflow: hidden;
+.main-container>.barra_de_navegacion>.agregar {
+
+	top: 25%;
+	left: 65%;
+}
+
+.main-container>.barra_de_navegacion>.agregar>#agregar {
+
 	font-family: Tomorrow;
 	font-size: 22px;
-	text-align: center;
-	color:#000000;
+
 }
 
-.main-container > .barra_de_navegacion > .reportes > a{
-	text-decoration: none;
-	color: black;
+.main-container>.barra_de_navegacion>.agregar>.dropdown-menu {
+
+	font-family: Tomorrow;
+	font-size: 20px;
+
 }
 
-.main-container > .barra_de_navegacion > .agregar {
-	top: 30%;
-	left: 54%;
-	width: 20vw;
-	height: 41vh;
-	overflow: hidden;
+
+.main-container>.barra_de_navegacion>.consultar {
+	top: 25%;
+	left: 80%;
+
+}
+
+.main-container>.barra_de_navegacion>.consultar>#consultar {
+
 	font-family: Tomorrow;
 	font-size: 22px;
-	text-align: center;
-	color:#000000;
+
 }
 
-.main-container > .barra_de_navegacion > .agregar > a{
-	text-decoration: none;
-	color: black;
+.main-container>.barra_de_navegacion>.consultar>.dropdown-menu {
+
+	font-family: Tomorrow;
+	font-size: 20px
 }
 
-.main-container > .barra_de_navegacion > .consultar {
-	top: 30%;
-	left: 61%;
-	width: 27vw;
-	height: 41vh;
-	overflow: hidden;
+.main-container>.barra_de_navegacion>.modificar {
+	top: 25%;
+	left: 15%;
+
+}
+
+.main-container>.barra_de_navegacion>.modificar #modificar {
+
 	font-family: Tomorrow;
 	font-size: 22px;
-	text-align: center;
-	color:#000000;
+
 }
 
-.main-container > .barra_de_navegacion > .consultar > a{
-	text-decoration: none;
-	color: black;
+.main-container>.barra_de_navegacion>.modificar>.dropdown-menu {
+
+	font-family: Tomorrow;
+	font-size: 20px
+	
 }
 
-.main-container > .barra_de_navegacion > .logo {
+
+
+
+.main-container>.barra_de_navegacion>.logo {
 	top: 30%;
 	left: 40%;
 	width: 20vw;
 	height: 7vh;
 }
 
-.main-container > .barra_de_navegacion > .flechas {
+.main-container>.barra_de_navegacion>.flechas {
 	top: 35px;
 	left: 8px;
 	width: 24px;
 	height: 24px;
 }
 
-.main-container > .barra_de_navegacion > .flechas > .vector {
+.main-container>.barra_de_navegacion>.flechas>.vector {
 	top: 5%;
 	left: 0px;
 	width: 5px;
 	height: 10px;
 }
-.main-container > .barra_de_navegacion > .flechas > .vector_ek1 {
+
+.main-container>.barra_de_navegacion>.flechas>.vector_ek1 {
 	top: 5%;
 	left: 6px;
 	width: 5px;
 	height: 10px;
 }
 
-.main-container > .barra_de_navegacion > .user_profile{
+.main-container>.barra_de_navegacion>.user_profile {
 	top: 8%;
 	left: 1%;
 }
 
-.main-container > .boton {
+.main-container>.boton {
 
 	background: #CDA8FD;
 	height: 45px;
@@ -175,15 +185,10 @@ body{
 
 	position: relative;
 
-   	top: 90% ;
-   	left: 85%;
-}
+	top: 90%;
+	left: 85%;
 
-.main-container > .boton > a{
-	text-decoration: none;
-	color: black;
 }
-
 
 #nombre_del_gerente {
 	top: 69%;
@@ -192,47 +197,50 @@ body{
 	height: 20vh;
 	overflow: hidden;
 	font-family: Montserrat;
-	font-size: 35px;
+	font-size: 4vh;
 	font-weight: bold;
 	text-align: center;
-	color:#FFFFFF;
+	color: #FFFFFF;
 }
+
 #__0000 {
-	top: 81%;
+	top: 80%;
 	left: 9%;
 	width: 8vw;
-	height: 56.5vh;
+	font-weight: bold;
 	overflow: hidden;
 	font-family: Montserrat;
-	font-size: 25px;
+	font-size: 3vh;
 	text-align: center;
-	color:#FFFFFF;
+	color: #FFFFFF;
 }
-#bienvenido{
+
+#bienvenido {
 	top: 32%;
 	left: 46%;
 	width: 51vw;
 	height: 20vh;
 	overflow: hidden;
 	font-family: Tomorrow;
-	font-size: 60px;
+	font-size: 7vh;
 	font-weight: bold;
 	text-align: center;
-	color:#000000;
+	color: #000000;
 }
-#saludo{
+
+#saludo {
 	position: relative;
 	top: 56%;
 	left: 32%;
 	width: 55vw;
-	height: 50vh;
+	height: 30vh;
 	overflow: hidden;
 	font-family: Tomorrow;
-	font-size: 32px;
+	font-size: 4vh;
 	text-align: center;
-	color:#000000;
-}
+	color: #000000;
 
+}
 
 #mask_group_ek2 {
 	position: absolute;
@@ -247,6 +255,4 @@ body{
 
 
 
-
-/* Add your custom CSS here */
 
