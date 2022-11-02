@@ -129,10 +129,40 @@ body {
 
 }
 
-.main-container>.barra_de_navegacion>.modificar>.dropdown-menu {
+.main-container> .barra_de_navegacion> .modificar> .dropdown-menu {
 
 	font-family: Tomorrow;
 	font-size: 20px
+}
+
+.main-container>.barra_de_navegacion>
+.reportes :hover,
+.agregar :hover,
+.modificar :hover,
+.consultar :hover {
+
+	background-color: #decef2;
+
+}
+
+.main-container> .barra_de_navegacion> .reportes:hover> .dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container> .barra_de_navegacion> .agregar:hover> .dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container> .barra_de_navegacion> .modificar:hover> .dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container> .barra_de_navegacion> .consultar:hover> .dropdown-menu {
+	display: block;
+	background-color: white;
 }
 
 .main-container>.barra_de_navegacion>.logo {
@@ -168,22 +198,88 @@ body {
 	left: 1%;
 }
 
-.main-container>.boton {
-
-	background: #CDA8FD;
-	height: 45px;
-	width: 152px;
-	font-size: 20px;
-	font-family: Tomorrow;
-	border-radius: 15px;
-	color: black;
-	cursor: pointer;
-
+.outer {
 	position: relative;
+	margin: 0 50px;
+	
+}
+.outer:hover{
+	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);	
+}
 
-	top: 90%;
+.button {
+	height: 45px;
+    width: 135px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-right: 25px;
+	top: 85%;
 	left: 85%;
+}
 
+.main-container> .outer button,.outer span{
+	position:absolute;
+	border-radius: 50px;
+
+}
+
+.outer button{
+	
+	background: #CDA8FD;
+	color: black;
+	font-family: Tomorrow;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    z-index: 9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+	
+	
+}
+.outer button, .outer span{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.button button{
+    height: 38px;
+    width: 125px;
+    border-radius: 50px;
+}
+.outer span{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+
+.button span{
+    border-radius: 50px;
+}
+
+.outer:hover span:nth-child(1){
+    filter: blur(7px);
+}
+
+.outer:hover span:nth-child(2){
+    filter:blur(14px);
+}
+
+.outer:hover{
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 
 #nombre_del_gerente {
