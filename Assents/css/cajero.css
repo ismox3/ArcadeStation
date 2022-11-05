@@ -1,18 +1,4 @@
-/*
- *	This content is generated from the PSD File Info.
- *	(Alt+Shift+Ctrl+I).
- *
- *	@desc 		
- *	@file 		login
- *	@date 		Wednesday 19th of October 2022 02:13:03 AM
- *	@title 		Page 1
- *	@author 	
- *	@keywords 	
- *	@generator 	Export Kit v1.3.figma
- *
-*/
 
-/* Only edit this if you know what you are doing! */
 body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
 
 /* Only edit this if you know what you are doing! */
@@ -63,39 +49,65 @@ body{
 	background:rgba(230.56,231.54,255,1);
 }
 
-.main-container > .barra_de_navegacion > .Reportes {
+.main-container > .barra_de_navegacion > .Consultar {
 	top: 30%;
-	left: 32%;
-	width: -50vw;
-	height: 5vh;
-	overflow: hidden;
+	left: 30%;
+
+}
+.main-container>.barra_de_navegacion>.Consultar>.dropdown-menu {
+
+	font-family: Tomorrow;
+	font-size: 20px;
+
+}
+.main-container>.barra_de_navegacion>.Consultar>#Consultar {
+
 	font-family: Tomorrow;
 	font-size: 22px;
-	text-align: center;
-	color:#000000;
+
 }
 
-.main-container > .barra_de_navegacion > .Reportes > a{
-	text-decoration: none;
-	color: black;
-}
-
-.main-container > .barra_de_navegacion > .Tarjetas {
+.main-container > .barra_de_navegacion > .Crear {
 	top: 30%;
-	left: 60%;
-	width: -10vw;
-	height: 5vh;
-	overflow: hidden;
+	left: 62%;
+	
+}
+
+.main-container>.barra_de_navegacion>.Crear>#Crear {
+
 	font-family: Tomorrow;
 	font-size: 22px;
-	text-align: center;
-	color:#000000;
+
 }
 
-.main-container > .barra_de_navegacion > .Tarjetas > a{
-	text-decoration: none;
-	color: black;
+.main-container>.barra_de_navegacion>.Crear>.dropdown-menu {
+
+	font-family: Tomorrow;
+	font-size: 20px;
+
 }
+
+.main-container>.barra_de_navegacion> .Crear :hover {
+	background-color: #decef2;
+
+}
+
+.main-container>.barra_de_navegacion> .Consultar :hover {
+	background-color: #decef2;
+
+}
+
+.main-container>.barra_de_navegacion>.Consultar:hover>.dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container>.barra_de_navegacion>.Crear:hover>.dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+
 
 .main-container > .barra_de_navegacion > .logo {
 	top: 30%;
@@ -104,51 +116,215 @@ body{
 	height: 7vh;
 }
 
-.main-container > .barra_de_navegacion > .flechas {
-	top: 35px;
-	left: 8px;
-	width: 24px;
-	height: 24px;
+.menu {
+	margin-top: 12vh;
+	height: 88vh;
+	width: 364px;
+	position: absolute;
+	background: #2A2052;
+	z-index: 1;
+	transition: 0.5s ease;
+	transform: translatex(-364px);
+
 }
 
-.main-container > .barra_de_navegacion > .flechas > .vector {
-	top: 5%;
-	left: 0px;
-	width: 5px;
-	height: 10px;
-}
-.main-container > .barra_de_navegacion > .flechas > .vector_ek1 {
-	top: 5%;
-	left: 6px;
-	width: 5px;
-	height: 10px;
+.menu .head {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+
+	/* padding: 10px;
+	padding-left: 252px;
+	padding-top: 40px;
+	left: -120px;
+	top: 0px;
+	background : black 
+	*/
+
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 120px;
+	letter-spacing: 3px;
+
+
 }
 
-.main-container > .barra_de_navegacion > .user_profile{
-	top: 8%;
-	left: 1%;
+ol {
+	width: 100%;
+	list-style: none;
 }
 
-.main-container > .boton {
+li {
+	display: block;
+	width: 100%;
+}
 
-	background: #CDA8FD;
-	height: 45px;
-	width: 152px;
-	font-size: 20px;
-	font-family: Tomorrow;
-	border-radius: 15px;
-	color: black;
+li a {
+
+	color: white;
+	padding: 15px 10px;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	transition: 0.3s;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+li a i {
+	width: 70px;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 30px;
+
+}
+
+li:hover a {
+	background: #5E496F;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+input {
+	
+	visibility: hidden;
+	display: none;
+
+}
+
+span {
+	position: absolute;
+	right: -40px;
+	top: 30px;
+	font-size: 25px;
+	border-radius: 3px;
+	color: #fff;
+	padding: 3px 8px;
 	cursor: pointer;
 
-	position: relative;
 
-   	top: 90% ;
-   	left: 85%;
 }
 
-.main-container > .boton > a{
-	text-decoration: none;
+#bars {
+	position: absolute;
+	margin-top: -14vh;
+	font-size: 50px;
+	left: 380px;
 	color: black;
+}
+
+#times {
+	margin-top: -4vh;
+	font-size: 40px;
+	display: none;
+
+
+}
+
+#check:checked~.menu {
+	transform: translateX(0);
+}
+
+#check:checked~.menu #bars {
+	display: none;
+}
+
+#check:checked~.menu #times {
+	display: block;
+}
+
+.outer {
+	position: relative;
+	margin: 0 50px;
+
+}
+
+
+.outer:hover {
+	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+
+.button {
+	height: 45px;
+	width: 135px;
+	border-radius: 50px;
+	margin-top: 30px;
+	margin-right: 25px;
+	top: 85%;
+	left: 85%;
+}
+
+.outer span {
+	position: absolute;
+	border-radius: 50px;
+
+}
+
+.outer button {
+
+	background: #CDA8FD;
+	color: black;
+	font-family: Tomorrow;
+	outline: none;
+	border: none;
+	font-size: 15px;
+	z-index: 9;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+
+}
+
+.outer button,
+.outer span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.button button {
+	height: 38px;
+	width: 125px;
+	border-radius: 50px;
+}
+
+.outer span {
+	height: 100%;
+	width: 100%;
+	background: inherit;
+}
+
+.button span {
+	border-radius: 50px;
+}
+
+.outer:hover span:nth-child(1) {
+	filter: blur(7px);
+}
+
+.outer:hover span:nth-child(2) {
+	filter: blur(14px);
+}
+
+.outer:hover {
+	animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+
+	100% {
+		filter: hue-rotate(360deg);
+	}
 }
 
 #nombre_del_cajero {
@@ -184,21 +360,21 @@ body{
 	height: 20vh;
 	overflow: hidden;
 	font-family: Tomorrow;
-	font-size: 60px;
+	font-size: 7vh;
 	font-weight: bold;
 	text-align: center;
 	color:#000000;
 }
 
 #saludo{
-	position: relative;
+	
 	top: 56%;
-	left: 32%;
+	left: 43%;
 	width: 55vw;
-	height: 50vh;
+	height: 30vh;
 	overflow: hidden;
 	font-family: Tomorrow;
-	font-size: 32px;
+	font-size: 4vh;
 	text-align: center;
 	color:#000000;
 }

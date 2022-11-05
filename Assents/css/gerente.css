@@ -55,24 +55,17 @@ body {
 	background: rgba(230.56, 231.54, 255, 1);
 }
 
-.main-container>.barra_de_navegacion>.reportes {
+	.main-container>.barra_de_navegacion>.reportes {
+
 	top: 25%;
 	left: 30%;
 
 }
 
-
 .main-container>.barra_de_navegacion>.reportes>#reportes {
 
 	font-family: Tomorrow;
 	font-size: 22px;
-
-}
-
-.main-container>.barra_de_navegacion>.reportes>.dropdown-menu {
-
-	font-family: Tomorrow;
-	font-size: 20px;
 
 }
 
@@ -89,14 +82,6 @@ body {
 
 }
 
-.main-container>.barra_de_navegacion>.agregar>.dropdown-menu {
-
-	font-family: Tomorrow;
-	font-size: 20px;
-
-}
-
-
 .main-container>.barra_de_navegacion>.consultar {
 	top: 25%;
 	left: 80%;
@@ -108,12 +93,6 @@ body {
 	font-family: Tomorrow;
 	font-size: 22px;
 
-}
-
-.main-container>.barra_de_navegacion>.consultar>.dropdown-menu {
-
-	font-family: Tomorrow;
-	font-size: 20px
 }
 
 .main-container>.barra_de_navegacion>.modificar {
@@ -129,38 +108,40 @@ body {
 
 }
 
-.main-container> .barra_de_navegacion> .modificar> .dropdown-menu {
+.main-container>.barra_de_navegacion>.reportes :hover {
+background-color: #decef2;
 
-	font-family: Tomorrow;
-	font-size: 20px
 }
 
-.main-container>.barra_de_navegacion>
-.reportes :hover,
-.agregar :hover,
-.modificar :hover,
-.consultar :hover {
-
+.main-container>.barra_de_navegacion>.agregar :hover{
 	background-color: #decef2;
 
 }
+.main-container>.barra_de_navegacion>.modificar :hover{
+	background-color: #decef2;
 
-.main-container> .barra_de_navegacion> .reportes:hover> .dropdown-menu {
+}
+.main-container>.barra_de_navegacion>.consultar :hover {
+	background-color: #decef2;
+	
+}
+
+.main-container>.barra_de_navegacion>.reportes:hover>.dropdown-menu {
 	display: block;
 	background-color: white;
 }
 
-.main-container> .barra_de_navegacion> .agregar:hover> .dropdown-menu {
+.main-container>.barra_de_navegacion>.agregar:hover>.dropdown-menu {
 	display: block;
 	background-color: white;
 }
 
-.main-container> .barra_de_navegacion> .modificar:hover> .dropdown-menu {
+.main-container>.barra_de_navegacion>.modificar:hover>.dropdown-menu {
 	display: block;
 	background-color: white;
 }
 
-.main-container> .barra_de_navegacion> .consultar:hover> .dropdown-menu {
+.main-container>.barra_de_navegacion>.consultar:hover>.dropdown-menu {
 	display: block;
 	background-color: white;
 }
@@ -172,114 +153,215 @@ body {
 	height: 7vh;
 }
 
-.main-container>.barra_de_navegacion>.flechas {
-	top: 35px;
-	left: 8px;
-	width: 24px;
-	height: 24px;
+
+
+.menu {
+	margin-top: 12vh;
+	height: 88vh;
+	width: 364px;
+	position: absolute;
+	background: #2A2052;
+	z-index: 1;
+	transition: 0.5s ease;
+	transform: translatex(-364px);
+
 }
 
-.main-container>.barra_de_navegacion>.flechas>.vector {
-	top: 5%;
-	left: 0px;
-	width: 5px;
-	height: 10px;
+.menu .head {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+
+	/* padding: 10px;
+	padding-left: 252px;
+	padding-top: 40px;
+	left: -120px;
+	top: 0px;
+	background : black 
+	*/
+
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 120px;
+	letter-spacing: 3px;
+
+
 }
 
-.main-container>.barra_de_navegacion>.flechas>.vector_ek1 {
-	top: 5%;
-	left: 6px;
-	width: 5px;
-	height: 10px;
+ol {
+	width: 100%;
+	list-style: none;
 }
 
-.main-container>.barra_de_navegacion>.user_profile {
-	top: 8%;
-	left: 1%;
+li {
+	display: block;
+	width: 100%;
+}
+
+li a {
+
+	color: white;
+	padding: 15px 10px;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	transition: 0.3s;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+li a i {
+	width: 70px;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 30px;
+
+}
+
+li:hover a {
+	background: #5E496F;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+input {
+	-webkit-appearance: none;
+	visibility: hidden;
+	display: none;
+
+}
+
+span {
+	position: absolute;
+	right: -40px;
+	top: 30px;
+	font-size: 25px;
+	border-radius: 3px;
+	color: #fff;
+	padding: 3px 8px;
+	cursor: pointer;
+
+
+}
+
+#bars {
+	margin-top: -14vh;
+	font-size: 50px;
+	left: 380px;
+	color: black;
+}
+
+#times {
+	margin-top: -4vh;
+	font-size: 40px;
+	display: none;
+
+
+}
+
+#check:checked~.menu {
+	transform: translateX(0);
+}
+
+#check:checked~.menu #bars {
+	display: none;
+}
+
+#check:checked~.menu #times {
+	display: block;
 }
 
 .outer {
 	position: relative;
 	margin: 0 50px;
-	
+
 }
-.outer:hover{
-	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);	
+
+.outer:hover {
+	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
 }
 
 .button {
 	height: 45px;
-    width: 135px;
-    border-radius: 50px;
-    margin-top: 30px;
-    margin-right: 25px;
+	width: 135px;
+	border-radius: 50px;
+	margin-top: 30px;
+	margin-right: 25px;
 	top: 85%;
 	left: 85%;
 }
 
-.main-container> .outer button,.outer span{
-	position:absolute;
+.outer span {
+	position: absolute;
 	border-radius: 50px;
 
 }
 
-.outer button{
-	
+.outer button {
+
 	background: #CDA8FD;
 	color: black;
 	font-family: Tomorrow;
-    outline: none;
-    border: none;
-    font-size: 15px;
-    z-index: 9;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    cursor: pointer;
-	
-	
+	outline: none;
+	border: none;
+	font-size: 15px;
+	z-index: 9;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+
 }
-.outer button, .outer span{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.outer button,
+.outer span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
-.button button{
-    height: 38px;
-    width: 125px;
-    border-radius: 50px;
-}
-.outer span{
-    height: 100%;
-    width: 100%;
-    background: inherit;
+.button button {
+	height: 38px;
+	width: 125px;
+	border-radius: 50px;
 }
 
-.button span{
-    border-radius: 50px;
+.outer span {
+	height: 100%;
+	width: 100%;
+	background: inherit;
 }
 
-.outer:hover span:nth-child(1){
-    filter: blur(7px);
+.button span {
+	border-radius: 50px;
 }
 
-.outer:hover span:nth-child(2){
-    filter:blur(14px);
+.outer:hover span:nth-child(1) {
+	filter: blur(7px);
 }
 
-.outer:hover{
-    animation: rotate 1.5s linear infinite;
+.outer:hover span:nth-child(2) {
+	filter: blur(14px);
 }
 
-@keyframes rotate{
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }
+.outer:hover {
+	animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+
+	100% {
+		filter: hue-rotate(360deg);
+	}
 }
 
 #nombre_del_gerente {
@@ -321,9 +403,9 @@ body {
 }
 
 #saludo {
-	position: relative;
+
 	top: 56%;
-	left: 32%;
+	left: 43%;
 	width: 55vw;
 	height: 30vh;
 	overflow: hidden;
