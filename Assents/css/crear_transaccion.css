@@ -115,14 +115,6 @@ body{
 	font-size: 30px;
 	font-weight: bold;
 
-	/* padding: 10px;
-	padding-left: 252px;
-	padding-top: 40px;
-	left: -120px;
-	top: 0px;
-	background : black 
-	*/
-
 	text-transform: uppercase;
 	text-align: center;
 	margin-left: 120px;
@@ -235,19 +227,9 @@ span {
 	border: 1px solid #000; 
 }
 
-.cuadrado {
-	top: 650%;
-	left: 30%;
-	width: 20vw;           
-	height: 15vh;
-	border-radius: 20px;          
-	background: #FBD8FC;        
-	border: 2px solid #000; 
-}
-
-#nombre_ek1 {
-	top: 300px;
-	left: 350px;
+#tarjeta {
+	top: 200px;
+	left: 264px;
 	width: 349px;
 	height: 83px;
 	overflow: hidden;
@@ -259,9 +241,9 @@ span {
 	color:#000000;
 }
 
-#genero {
-	top: 580px;
-	left: 460px;
+#monto {
+	top: 270px;
+	left: 315px;
 	width: 224px;
 	height: 72px;
 	overflow: hidden;
@@ -273,23 +255,10 @@ span {
 	color:#000000;
 }
 
-#f {
-	top: 630px;
-	left: 630px;
-	width: 44px;
-	height: 43px;
-	overflow: hidden;
-	font-family: Sintony;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	letter-spacing: 3.9px;
-	color:#000000;
-}
-#m {
-	top: 630px;
-	left: 500px;
-	width: 44px;
+#Tipo {
+	top: 600px;
+	left: 365px;
+	width: 250px;
 	height: 43px;
 	overflow: hidden;
 	font-family: Sintony;
@@ -300,10 +269,10 @@ span {
 	color:#000000;
 }
 
-#direccion_ek1 {
-	top: 400px;
-	left: 350px;
-	width: 191px;
+#descripcion {
+	top: 370px;
+	left: 365px;
+	width: 230px;
 	height: 60px;
 	overflow: hidden;
 	font-family: Sintony;
@@ -314,9 +283,9 @@ span {
 	color:#000000;
 }
 
-#ingrese_cedula__ek1 {
-	top: 200px;
-	left: 350px;
+#referencia {
+	top: 480px;
+	left: 325px;
 	width: 290px;
 	height: 60px;
 	overflow: hidden;
@@ -350,8 +319,4 @@ span {
 	text-align: center;
 	color:#000000;
 }
-
-
-
-
 
