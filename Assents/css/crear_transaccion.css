@@ -218,7 +218,7 @@ span {
 }
  
 .rectangulo {
-	top: 140%;
+	top: 142%;
 	left: 3%;
 	width: 94vw;           
 	height: 80vh;
@@ -227,96 +227,92 @@ span {
 	border: 1px solid #000; 
 }
 
-#tarjeta {
-	top: 200px;
-	left: 264px;
-	width: 349px;
-	height: 83px;
-	overflow: hidden;
-	font-family: Sintony;
-	font-size: 30px;
+.cuadrado {
+	top: 70%;
+	left: 0%;
+	width: 80vw;           
+	height: 20vh;
+	border-radius: 20px;          
+	background: #FBD8FC;        
+	border: 2px solid #000; 
+}
+
+#Tarjeta {
+	top: 10%;
+	left: 35%;
+	width: 39vh;
+	height: 4vh;
+	font-family: tomorrow;
+	font-size: 3vh;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	letter-spacing: 3.9px;
 	color:#000000;
 }
 
-#monto {
-	top: 270px;
-	left: 315px;
-	width: 224px;
-	height: 72px;
-	overflow: hidden;
-	font-family: Sintony;
-	font-size: 30px;
+#Monto {
+	top: 24%;
+	left: 35%;
+	width: 39vh;
+	height: 4vh;
+	font-family: Tomorrow;
+	font-size: 3vh;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+
+#Descripcion {
+	top: 40%;
+	left: 35%;
+	width: 39vh;
+	height: 4vh;
+	font-family: Tomorrow;
+	font-size: 3vh;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 3.9px;
+	color:#000000;
+}
+
+#Referencia {
+	top: 57%;
+	left: 35%;
+	width: 39vh;
+	height: 4vh;
+	font-family: Tomorrow;
+	font-size: 3vh;
+	font-weight: bold;
+	text-align: left;
 	letter-spacing: 3.9px;
 	color:#000000;
 }
 
 #Tipo {
-	top: 600px;
-	left: 365px;
-	width: 250px;
-	height: 43px;
-	overflow: hidden;
-	font-family: Sintony;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	letter-spacing: 3.9px;
-	color:#000000;
-}
-
-#descripcion {
-	top: 370px;
-	left: 365px;
-	width: 230px;
-	height: 60px;
-	overflow: hidden;
-	font-family: Sintony;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	letter-spacing: 3.9px;
-	color:#000000;
-}
-
-#referencia {
-	top: 480px;
-	left: 325px;
-	width: 290px;
-	height: 60px;
-	overflow: hidden;
-	font-family: Sintony;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	letter-spacing: 3.9px;
-	color:#000000;
-}
-
-.cuadrado_2 {
-	top: 725%;
-	left: 84.5%;
-	width: 8vw;           
-	height: 6vh;
-	border-radius: 20px;          
-	background: #A9B5EF;        
-	border: 4px solid #000; 
-}
-
-
-#crear_ek2 {
-	top: 640px;
-	left: 1240px;
-	width: 112px;
-	height: 40px;
-	overflow: hidden;
+	top: 75%;
+	left: 35%;
+	width: 39vh;
+	height: 4vh;
 	font-family: Tomorrow;
-	font-size: 22px;
-	text-align: center;
+	font-size: 3vh;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 3.9px;
 	color:#000000;
 }
 
+
+
+.crear {
+
+    margin-top: 37%;
+	margin-left: 85%;
+	width: 15vh;	
+	height: 6vh;
+	border-radius: 30px;          
+	background: #A9B5EF;  
+	font-family: Tomorrow; 
+     
+	 
+}
