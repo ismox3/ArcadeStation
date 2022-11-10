@@ -340,15 +340,18 @@ span {
 	width: 50vh;
 	height: 6vh;
 }
-.crear {
+.Crear2 {
 
-    margin-top: 37%;
-	margin-left: 85%;
-	width: 15vh;	
-	height: 6vh;
-	border-radius: 20px;          
-	background: #A9B5EF;        
-	 
+	margin-top: 70vh;
+	margin-left: 80vw;
+
+
 }
 
+.Crearb {
+	width: 15vh;
+	height: 6vh;
+	border-radius: 20px;
+	background: #A9B5EF;
+}
 

@@ -330,29 +330,22 @@ span {
 	width: 50vh;
 	height: 5vh;
 }
-.crear {
+.Crear2 {
 
-    margin-top: 37%;
-	margin-left: 85%;
-	width: 15vh;	
+	margin-top: 70vh;
+	margin-left: 80vw;
+
+
+}
+
+.Crearb {
+	width: 15vh;
 	height: 6vh;
-	border-radius: 20px;          
-	background: #A9B5EF;        
-	 
+	border-radius: 20px;
+	background: #A9B5EF;
 }
 
 
-#crear_ek2 {
-	top: 640px;
-	left: 1240px;
-	width: 112px;
-	height: 40px;
-	overflow: hidden;
-	font-family: Tomorrow;
-	font-size: 22px;
-	text-align: center;
-	color:#000000;
-}
 
 
 
