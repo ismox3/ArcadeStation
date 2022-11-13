@@ -1,0 +1,363 @@
+.main-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(-175.82388596164deg, rgba(251.82, 74.62, 148.26, 1) 0%, rgba(189.07, 158.69, 211.44, 0.86000001430511) 48%, rgba(69.52, 74.27, 213.57, 0.94999998807907) 87%);
+
+}
+
+.container{
+    margin-top: 18vh;
+    left: 15vw;
+    width: 94vw;           
+	height: 80vh;
+	
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(201,108,233,1) 0%, rgba(227,192,255,1) 32%, rgba(127,129,223,1) 86%, rgba(92,119,239,1) 100%);
+    width: 100%;
+    height: 100%;
+    filter: blur(2%);
+}
+
+.consulta h2{
+    font-family: 'Century Gothic';
+    font-weight: 650;
+    letter-spacing: 0.1em;
+    font-size: 35pt;
+    padding: 8px 170px;
+    margin-bottom: 15px;
+    text-decoration: underline darkblue 3.5px;
+}
+
+.cuadrado{
+    background-color: white;
+    height: 135px;
+    margin-left: 145px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    position: static;
+}
+
+.row{
+    font-size: 11pt;
+    display: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-weight: 560;
+    
+}
+
+.tabla{
+    font-family: 'Century Gothic';
+    border: solid 0.5px rgb(8, 7, 57);
+    table-layout: fixed;
+    width:auto;
+    
+}
+
+.encabezado{
+    background-color: rgb(176, 164, 211);
+}
+
+th{
+    padding: 15px 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13.5pt;
+
+}
+
+td{
+    padding: 8px;
+    border-top: solid 0.5px rgb(8, 7, 57) ;
+    border-right: solid 0.4px rgb(8, 7, 57);
+    text-align: center;
+    
+   
+}
+
+tbody tr{
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background: rgb(221, 206, 255, 30%);
+}
+
+.search{
+    width: 15%;
+    height: 18px;
+    border-radius: 5px;
+    border-color: rgb(48, 17, 98);
+    margin-left: 64%;
+    padding: 2.5px 5px;
+    margin-top: 5px
+}
+
+.boton{
+    border-radius: 8px;
+    width: 5.5%;
+    background-color: rgb(59, 22, 99);
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 10pt;
+    font-weight: 550;
+    padding: 3px 3.5px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.main-container>.barra_de_navegacion {
+
+	width: 100vw;
+	height: 12vh;
+	background: rgba(230.56, 231.54, 255, 1);
+}
+
+	.main-container>.barra_de_navegacion>.reportes {
+
+	top: 25%;
+	left: 30%;
+
+}
+
+.main-container>.barra_de_navegacion>.reportes>#reportes {
+
+	font-family: Tomorrow;
+	font-size: 22px;
+
+}
+
+.main-container>.barra_de_navegacion>.agregar {
+
+	top: 25%;
+	left: 65%;
+}
+
+.main-container>.barra_de_navegacion>.agregar>#agregar {
+
+	font-family: Tomorrow;
+	font-size: 22px;
+
+}
+
+.main-container>.barra_de_navegacion>.consultar {
+	top: 25%;
+	left: 80%;
+
+}
+
+.main-container>.barra_de_navegacion>.consultar>#consultar {
+
+	font-family: Tomorrow;
+	font-size: 22px;
+    text-decoration: underline;
+
+}
+
+.main-container>.barra_de_navegacion>.modificar {
+	top: 25%;
+	left: 15%;
+
+}
+
+.main-container>.barra_de_navegacion>.modificar #modificar {
+
+	font-family: Tomorrow;
+	font-size: 22px;
+
+}
+
+.main-container>.barra_de_navegacion>.reportes :hover {
+background-color: #decef2;
+
+}
+
+.main-container>.barra_de_navegacion>.agregar :hover{
+	background-color: #decef2;
+
+}
+.main-container>.barra_de_navegacion>.modificar :hover{
+	background-color: #decef2;
+
+}
+.main-container>.barra_de_navegacion>.consultar :hover {
+	background-color: #decef2;
+	
+}
+
+.main-container>.barra_de_navegacion>.reportes:hover>.dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container>.barra_de_navegacion>.agregar:hover>.dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container>.barra_de_navegacion>.modificar:hover>.dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container>.barra_de_navegacion>.consultar:hover>.dropdown-menu {
+	display: block;
+	background-color: white;
+}
+
+.main-container>.barra_de_navegacion>.logo {
+	top: 30%;
+	left: 40%;
+	width: 20vw;
+	height: 7vh;
+}
+
+div {
+	position: absolute;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+
+.menu {
+	margin-top: 12vh;
+	height: 88vh;
+	width: 364px;
+	position: absolute;
+	background: #2A2052;
+	z-index: 1;
+	transition: 0.5s ease;
+	transform: translatex(-364px);
+
+}
+
+.menu .head {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+
+	/* padding: 10px;
+	padding-left: 252px;
+	padding-top: 40px;
+	left: -120px;
+	top: 0px;
+	background : black 
+	*/
+
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 120px;
+	letter-spacing: 3px;
+
+
+}
+
+ol {
+	width: 100%;
+	list-style: none;
+}
+
+li {
+	display: block;
+	width: 100%;
+}
+
+li a {
+
+	color: white;
+	padding: 15px 10px;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	transition: 0.3s;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+li a i {
+	width: 70px;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 30px;
+
+}
+
+li:hover a {
+	background: #5E496F;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#check{
+
+	visibility: hidden;
+	display: none;
+
+}
+
+span {
+	position: absolute;
+	right: -40px;
+	top: 30px;
+	font-size: 25px;
+	border-radius: 3px;
+	color: #fff;
+	padding: 3px 8px;
+	cursor: pointer;
+
+
+}
+
+#bars {
+	margin-top: -14vh;
+	font-size: 50px;
+	left: 380px;
+	color: black;
+}
+
+#times {
+	margin-top: -4vh;
+	font-size: 40px;
+	display: none;
+
+
+}
+
+#check:checked~.menu {
+	transform: translateX(0);
+}
+
+#check:checked~.menu #bars {
+	display: none;
+}
+
+#check:checked~.menu #times {
+	display: block;
+}
+

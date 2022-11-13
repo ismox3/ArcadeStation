@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArcadeStation</title>
+    <link rel="stylesheet" href="Assents/css/consultartarjeta.css">
+
+    <script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css ">
+
+</head>
+
+<body>
+    <main class="main-container">
+        <input type="checkbox" name="" id="check">
+        <div class="menu">
+            <label for="check">
+                <span class="fas fa-times" id="times"></span>
+                <span class="far fa-circle-user" id="bars"></span>
+            </label>
+            <div class="head"> menu </div><br> <br> <br> <br>
+
+            <li><a href="#"><i class="fas fa-users"></i> Manual de ayuda de usuario</a></li>
+            <li><a href="#"><i class="fas fa-cloud"></i> Respaldo de base de datos</a></li>
+            <li><a href="#"><i class="fas fa-gear"></i> Configuracion</a></li>
+            <li><a href="#"><i class="fas fa-info"></i> Acerca de</a></li>
+            <li><a href="#"><i class="fas fa-gamepad"></i> Probar maquina</a></li>
+
+
+        </div>
+        <div class="barra_de_navegacion">
+            <div class="reportes">
+                <button type="button" class="btn btn-white dropdownd-toggle" id="reportes" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    Reportes
+                </button>
+                <div class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Reporte de Empleado</a></li>
+                    <li><a href="#" class="dropdown-item">Reporde de Cliente</a></li>
+                    <li><a href="#" class="dropdown-item">Reporte de Maquina</a></li>
+
+
+                </div>
+
+            </div>
+
+            <div class="agregar">
+
+                <button type="button" class="btn btn-white dropdownd-toggle" id="agregar" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    Agregar
+                </button>
+                <div class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Agregar Cliente</a></li>
+                    <li><a href="#" class="dropdown-item">Agregar Empleado</a></li>
+                    <li><a href="#" class="dropdown-item">Agregar Maquina</a></li>
+                    <li><a href="#" class="dropdown-item">Agregar Transacción</a></li>
+
+                </div>
+            </div>
+            <div class="consultar">
+                <button type="button" class="btn btn-white dropdownd-toggle" id="consultar" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    Consultar
+                </button>
+                <div class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Consultar Cliente</a></li>
+                    <li><a href="#" class="dropdown-item">Consultar Empleado</a></li>
+                    <li><a href="#" class="dropdown-item">Consultar Tarjeta</a></li>
+                    <li><a href="#" class="dropdown-item">Consultar Maquina</a></li>
+
+
+                </div>
+            </div>
+            <div class="modificar">
+                <button type="button" class="btn btn-white dropdownd-toggle" id="modificar" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                    Modificar
+                </button>
+                <div class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Modificar Cliente</a></li>
+                    <li><a href="#" class="dropdown-item">Modificar Empleado</a></li>
+                    <li><a href="#" class="dropdown-item">Modificar Maquina</a></li>
+
+                </div>
+            </div>
+
+
+            <img src="Assents/img/logo_ek1.png" class="logo" />
+
+        </div>
+        
+        <div class="container">
+
+            <header class="consulta">
+                <h2>Consultar Tarjetas</h2>
+            </header>
+
+            <input type="text" placeholder=" Ingrese Numero de Tarjeta." class="search">
+            <button class="boton">buscar</button>
+
+
+            <div class="row">
+                <div class="cuadrado">
+                    <table class="tabla">
+                        <thead class="encabezado">
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Cedula</th>
+                                <th>#Tarjeta</th>
+                                <th>Saldo</th>
+                                <th>F. Creacion</th>
+                                <th>¿Anulada?</th>
+                                <th>Fecha de Anulacion</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Andres Torres</td>
+                                <td>11.946.331</td>
+                                <td>4431968596576</td>
+                                <td>0.00</td>
+                                <td>24/10/2022 11:06</td>
+                                <td>No</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script>var specialChars = document.querySelectorAll("span.char"); for (var c = 0; c < specialChars.length; c++) { specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
